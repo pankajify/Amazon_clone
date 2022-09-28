@@ -1,0 +1,460 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+.fa-globe {
+  font-family: "FontAwesome" !important;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  text-decoration: none;
+}
+
+body {
+  background-color: #e9edee;
+}
+
+/* navbar */
+/* =================================== */
+
+header {
+  background-color: #121921;
+  width: 100%;
+  height: 65px;
+  display: flex;
+}
+
+#logo {
+  width: 100px;
+  height: 30px;
+  float: left;
+  margin: 25px;
+}
+
+.location {
+  height: 65px;
+  display: flex;
+  color: aliceblue;
+  font-weight: 500;
+  align-items: center;
+}
+
+.fa-map-marker {
+  margin: 0 10px 0 0;
+}
+
+.location img {
+  height: 35px;
+}
+
+.location span {
+  font-size: 12px;
+  font-weight: 100;
+}
+
+.fa-search {
+  /* width: 20px;
+  height: 20px; */
+  color: #fff;
+  padding: 7.5px;
+  background-color: orange;
+  font-size: 20px;
+  border-radius: 0 6px 6px 0;
+}
+
+#search-bar {
+  display: flex;
+  align-items: center;
+  margin: 0 0 0 40px;
+}
+
+#option {
+  width: 50px;
+  height: 35px;
+  border: none;
+  background-color: #f3f3f3;
+  border-radius: 6px 0 0 6px;
+}
+
+#search-bar input {
+  width: 450px;
+  height: 35px;
+  border: none;
+}
+
+#flag-option {
+  display: flex;
+  align-items: center;
+  margin: 0 0 0 30px;
+}
+
+#flag {
+  width: 25px;
+  height: 27px;
+}
+
+.option {
+  width: 40px;
+  height: 20px;
+}
+
+#last-text {
+  color: #fff;
+  margin: 7px 0 0 35px;
+}
+
+#last-text span {
+  font-size: 12px;
+}
+
+#order {
+  color: #fff;
+  margin: 7px 0 0 35px;
+}
+
+#order span {
+  font-size: 12px;
+}
+
+.fa-shopping-cart {
+  font-size: 32px;
+  color: #fff;
+  margin: 20px 0 0 40px;
+}
+
+/* navbar 2 */
+/* ================================== */
+
+#navbar-2 {
+  background-color: #232f3f;
+  height: 40px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+#navbar-2 ul li {
+  float: left;
+  text-align: center;
+  list-style: none;
+}
+
+#navbar-2 li a {
+  display: block;
+  color: #fff;
+  text-align: center;
+  padding: 0 22px;
+}
+
+/* image */
+/* ============================== */
+#image-background {
+  max-width: 100%;
+  height: 100vh;
+  background-image: linear-gradient(
+      to bottom,
+      rgba(255, 153, 153, 0) 0%,
+      rgba(255, 153, 153, 0) 75%,
+      rgba(233, 237, 238, 1) 100%
+    ),
+    url(image/amazon.jpg);
+  background-size: cover;
+}
+/* product-1 */
+/* ==================================== */
+
+#product-1 {
+  background-color: #fff;
+  width: 300px;
+  height: 430px;
+  margin: 0 0 0 20px;
+}
+
+/* slider */
+
+/* ================================== */
+#slider {
+  width: 100%;
+  height: 50%;
+  /* background-color: blue;
+  opacity: 0.5; */
+}
+
+/* section */
+/* ======================================= */
+
+#section-1 {
+  width: 100%;
+  height: 70%;
+  display: flex;
+}
+
+.product-1 {
+  width: 300px;
+  height: 400px;
+  background-color: #fff;
+  margin: auto;
+}
+
+.product-1 h2 {
+  padding: 15px;
+}
+
+.row-1 {
+  display: flex;
+}
+
+.first-link img {
+  width: 110px;
+  height: 110px;
+}
+
+.first-link {
+  margin: 18px;
+}
+
+#second img {
+  width: 250px;
+  height: 300px;
+  padding: 20px;
+}
+
+#thered img {
+  width: 260px;
+  height: 300px;
+  padding: 20px;
+}
+
+#product-4 {
+  background-color: #fff;
+  width: 300px;
+  height: 135px;
+  margin: 28px 20px;
+}
+
+#product-4 h2 {
+  padding: 15px;
+  font-size: 20px;
+}
+
+#product-4 input {
+  width: 225px;
+  height: 28px;
+  border-radius: 10px;
+  border: 1px;
+  /* background-color: #fed813; */
+  margin: 0 0 20px 35px;
+}
+
+#product-5 {
+  margin: 11px 0 0 0;
+}
+
+#section-2 {
+  width: 99%;
+  height: 40%;
+  background-color: #fff;
+  margin: 10px 0 0 0;
+}
+
+.all-set {
+  margin: 20px 0 0 2.5px;
+}
+
+/* footer */
+/* =================================== */
+#footer-div {
+  width: 100%;
+  height: 50px;
+  background-color: #364759;
+  margin: 30px 0 0 0;
+}
+
+#top-link {
+  color: #fff;
+  display: block;
+  text-align: center;
+  padding: 10px 0 0 0;
+  font-size: 15px;
+}
+
+/* footer-2 */
+/* =============================== */
+#footer-div-2 {
+  width: 97%;
+  height: 500px;
+  background-color: #232f3f;
+  margin: 10px 0 0 0;
+  padding: 20px;
+}
+
+/* contener */
+/* ================================== */
+
+#contener {
+  width: 100%;
+  height: 350px;
+  /* background-color: red; */
+  display: flex;
+}
+
+#link-div {
+  width: 280px;
+  height: 180px;
+  /* background-color: #fed813; */
+  margin: 20px 0 0 30px;
+  padding: 50px;
+}
+
+#link-div h3 {
+  color: #b9c7d3;
+  /* text-align: center; */
+  margin: 0 0 0 17px;
+}
+
+#link-div ul {
+  list-style: none;
+}
+
+#link-div ul li {
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+  text-align: justify;
+}
+
+#link-div ul li a {
+  color: #b9c7d3;
+}
+
+/* contener-2 */
+/* ============================== */
+#link-div-2 {
+  width: 280px;
+  height: 280px;
+  /* background-color: green; */
+  margin-top: 20px;
+}
+
+#link-div-2 ul {
+  list-style: none;
+}
+
+#link-div-2 ul li {
+  display: flex;
+  flex-direction: column;
+  margin: 20px 0 0 0;
+}
+
+#link-div-2 h3 {
+  color: #b9c7d3;
+  margin: 50px 0 0 0;
+  display: block;
+}
+
+#link-div-2 ul li a {
+  color: #b9c7d3;
+}
+
+/* contener-3 */
+/* ============================== */
+#link-div-3 {
+  width: 350px;
+  height: 300px;
+  /* background-color: aqua; */
+}
+
+#link-div-3 h3 {
+  color: #b9c7d3;
+  margin: 70px 0 0 0;
+}
+
+#link-div-3 ul li a {
+  color: #b9c7d3;
+  display: flex;
+  flex-direction: column;
+}
+
+#link-div-3 ul {
+  list-style: none;
+  margin: 20px 0 0 0;
+}
+
+/* contener-4 */
+/* ============================= */
+
+#link-div-4 {
+  width: 300px;
+  height: 300px;
+  /* background-color: orangered; */
+}
+
+#link-div-4 ul {
+  list-style: none;
+  margin: 20px 0 0 0;
+}
+
+#link-div-4 h3 {
+  color: #b9c7d3;
+  margin: 67px 0 0 0;
+}
+
+#link-div-4 ul li a {
+  display: flex;
+  flex-direction: column;
+  color: #b9c7d3;
+}
+
+#img-amazon {
+  width: 100%;
+  height: 45px;
+  /* background-color: blue; */
+  display: flex;
+}
+
+#img-amazon img {
+  width: 80px;
+  height: 25px;
+  margin: 10px 0 0 520px;
+}
+
+#img-amazon button {
+  width: 115px;
+  height: 35px;
+  background-color: #242e3f;
+  border: solid 1px #7f8791;
+  border-radius: 3px;
+  margin: 2px 0 0 70px;
+  color: #fff;
+}
+
+#button:hover {
+  cursor: pointer;
+}
+
+.fa-globe,
+.fa-sort {
+  margin: 0 5px;
+}
+
+#last-link {
+  width: 76%;
+  height: 80px;
+  /* background-color: aqua; */
+  margin: auto;
+}
+
+#last-link ul {
+  list-style: none;
+}
+
+#last-link li a {
+  margin: 5px;
+  font-size: 12px;
+  color: #b9c7d3;
+}
+
+#second-link {
+  text-align: center;
+}
